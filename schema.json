@@ -1,0 +1,86 @@
+{
+    "B01": {
+        "label": "孩子出生時，是否有被告知新生兒聽力篩檢異常？",
+        "items": ["有", "無", "不清楚"],
+        "rules": ["required"],
+        "type": "radiogroup"
+    },
+    "B02": {
+        "label": "孩子是否有以下狀況？<p class='item-options'><span>出生時缺氧</span><span>出生體重過輕（<1500克）</span><span>早產（<37週）</span><span>顱顏異常</span><span>母親懷孕期曾感染過德國麻疹、弓漿蟲、披衣菌、梅毒或巨細胞病毒</span><span>嚴重黃疸（需換血）</span></p>",
+        "items": ["有（至少一項）", "以上皆無","不清楚"],
+        "rules": ["required"],
+        "type": "radiogroup"
+    },
+    "B03": {
+        "label": "孩子是否有身心障礙或特殊疾病？",
+        "items": ["有", "無", "不清楚"],
+        "rules": ["required"],
+        "type": "radiogroup"
+    },
+    "B04": {
+        "label": "孩子是否曾反覆患有中耳炎（積水）?",
+        "items": ["有", "無", "不清楚"],
+        "rules": ["required"],
+        "type": "radiogroup"
+    },
+    "B05": {
+        "label": "孩子最近是否出現以下情況？<p class='item-options'><span>耳朵流膿</span><span>耳朵痛</span><span>耳朵悶塞</span><span>耳鳴（耳朵嗡嗡叫）</span></p>",
+        "items": ["有（至少一項）", "以上皆無","不清楚"],
+        "rules": ["required"],
+        "type": "radiogroup"
+    },
+    "B06": {
+        "label": "家族是否有人有聽力問題（非老化重聽或耳傷造成）？",
+        "items": ["有", "無", "不清楚"],
+        "rules": ["required"],
+        "type": "radiogroup"
+    },
+    "Q01": {
+        "label": "在家裡和學校的生活／學習情境中，都能理解大部分的對話內容。",
+        "items": ["是", "否"],
+        "rules": ["required"],
+        "type": "radiogroup"
+    },
+    "Q05": {
+        "label": "孩子聽一段話（如：故事、對話）後能針對內容作出回應（如：回答問題、發表意見、提出問題）。",
+        "items": ["是", "否"],
+        "rules": ["required"],
+        "type": "radiogroup"
+    },
+    "Q06": {
+        "label": "孩子常常需要別人重複說話內容，如：「蛤？你說什麼？」。",
+        "items": ["是", "否"],
+        "rules": ["required"],
+        "type": "radiogroup"
+    },
+    "Q07": {
+        "label": "孩子常會搞不清楚聲音來自哪個方向。",
+        "items": ["是", "否"],
+        "rules": ["required"],
+        "type": "radiogroup"
+    },
+    "Q15": {
+        "label": "孩子用聽的就可以完成「長」的指令，如：「去把桌上的車子收到房間的籃子裡」、「在紙上面畫一個小圈圈和大的正方形」。",
+        "items": ["是", "否"],
+        "rules": ["required"],
+        "type": "radiogroup"
+    },
+    "Q21": {
+        "label": "孩子常側頭用一邊耳朵聆聽。",
+        "items": ["是", "否"],
+        "rules": ["required"],
+        "type": "radiogroup"
+    },
+    "Q27": {
+        "label": "曾有人（如：親友、老師、醫護人員）懷疑孩子可能有聽力問題。",
+        "items": ["是", "否"],
+        "rules": ["required"],
+        "type": "radiogroup"
+    },
+    "Q28": {
+        "label": "陌生人大多能聽懂孩子說的話。",
+        "items": ["是", "否"],
+        "rules": ["required"],
+        "type": "radiogroup"
+    }
+}
