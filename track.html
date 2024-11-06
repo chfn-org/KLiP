@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Server Processing</title>
+    <style>
+        body, html {
+            margin: 0;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-58ZGNZB');</script>
+    <!-- End Google Tag Manager -->
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-58ZGNZB" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div class="img">
+        <img src="waiting.gif" alt="結果計算中…" style="display: block; margin: 0 auto; padding:0 auto">
+    </div>
+
+    <script>
+        // ?url=https%3A%2F%2F192.168.200.84%3A5173%2F%3Fresp%3D%E6%9C%89%2C%E6%9C%89%EF%BC%88%E8%87%B3%E5%B0%91%E4%B8%80%E9%A0%85%EF%BC%89%2C%E4%B8%8D%E6%B8%85%E6%A5%9A%2C%E7%84%A1%2C%E4%B8%8D%E6%B8%85%E6%A5%9A%2C%E7%84%A1%2C%E6%98%AF%2C%E6%98%AF%2C%E6%98%AF%2C%E5%90%A6%2C%E6%98%AF%2C%E5%90%A6%2C%E6%98%AF%2C%E5%90%A6%26m%3D100%26date%3D2024-11-06
+
+        // Get Target from query parameter
+        const urlParams = new URLSearchParams(window.location.search);
+        const target = urlParams.get('url');
+        // Redirect to Target
+        if (target != null) {
+            setTimeout(() => window.location.replace(target), 1800)
+        }
+    </script>
+</body>
+</html>
+
+<!-- 
+This webpage contains Google Analytics code. The purpose is to visit this page
+with a target URL saved in a query parameter: `https://this.site/index.html?url={TARGET}`.
+The page redirects to the target. By doing so, the GA code can track the users who have
+completed the form (and so directed here) and, at the same time, redirect the user back
+to where the results of the form could be seen.
+-->
